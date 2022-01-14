@@ -1,0 +1,51 @@
+.website_head{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    color: #79b579;
+}
+.list{
+    display: flex;
+    padding: 15px 0;
+    list-style-type: none;
+    color: #aaa1a1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.list_content{
+    padding:0 20px;
+    cursor: pointer;
+}
+.content{
+    background:#e8dede;
+    height: 78vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.content .product{
+    background-color: white;
+    text-align: center;
+    color:  #a79999;
+
+}
+.content .product .span{
+    display: block;
+    margin-top: 28px;
+    color:#444;
+    font-weight: 600;
+    font-size: 30px;
+}
+footer{
+    padding: 20px;
+    background-color: #79b579;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
